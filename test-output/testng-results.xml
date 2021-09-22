@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OrangeHRM" duration-ms="25476" started-at="2021-09-22T02:16:37 IST" finished-at="2021-09-22T02:17:02 IST">
+    <groups>
+      <group name="regression">
+        <method signature="AdminPageTest.verifyAdminDeleteUser()[pri:4, instance:com.orangehrm.qa.testcases.AdminPageTest@58c1670b]" name="verifyAdminDeleteUser" class="com.orangehrm.qa.testcases.AdminPageTest"/>
+        <method signature="AdminPageTest.verifyAdminPageAction()[pri:2, instance:com.orangehrm.qa.testcases.AdminPageTest@58c1670b]" name="verifyAdminPageAction" class="com.orangehrm.qa.testcases.AdminPageTest"/>
+        <method signature="AdminPageTest.verifyAdminPageAddUser()[pri:3, instance:com.orangehrm.qa.testcases.AdminPageTest@58c1670b]" name="verifyAdminPageAddUser" class="com.orangehrm.qa.testcases.AdminPageTest"/>
+        <method signature="AdminPageTest.verifySetUp()[pri:1, instance:com.orangehrm.qa.testcases.AdminPageTest@58c1670b]" name="verifySetUp" class="com.orangehrm.qa.testcases.AdminPageTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="AdminPageTest.verifyAdminDeleteUser()[pri:4, instance:com.orangehrm.qa.testcases.AdminPageTest@58c1670b]" name="verifyAdminDeleteUser" class="com.orangehrm.qa.testcases.AdminPageTest"/>
+        <method signature="AdminPageTest.verifyAdminPageAction()[pri:2, instance:com.orangehrm.qa.testcases.AdminPageTest@58c1670b]" name="verifyAdminPageAction" class="com.orangehrm.qa.testcases.AdminPageTest"/>
+        <method signature="AdminPageTest.verifyAdminPageAddUser()[pri:3, instance:com.orangehrm.qa.testcases.AdminPageTest@58c1670b]" name="verifyAdminPageAddUser" class="com.orangehrm.qa.testcases.AdminPageTest"/>
+        <method signature="AdminPageTest.verifySetUp()[pri:1, instance:com.orangehrm.qa.testcases.AdminPageTest@58c1670b]" name="verifySetUp" class="com.orangehrm.qa.testcases.AdminPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test1" duration-ms="25476" started-at="2021-09-22T02:16:37 IST" finished-at="2021-09-22T02:17:02 IST">
+      <class name="com.orangehrm.qa.testcases.AdminPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.orangehrm.qa.testcases.AdminPageTest@58c1670b]" name="setUp" is-config="true" duration-ms="7782" started-at="2021-09-22T02:16:37 IST" finished-at="2021-09-22T02:16:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySetUp()[pri:1, instance:com.orangehrm.qa.testcases.AdminPageTest@58c1670b]" name="verifySetUp" duration-ms="6477" started-at="2021-09-22T02:16:45 IST" finished-at="2021-09-22T02:16:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySetUp -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.orangehrm.qa.testcases.AdminPageTest@58c1670b]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2021-09-22T02:16:51 IST" finished-at="2021-09-22T02:16:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySetUp status=SUCCESS method=AdminPageTest.verifySetUp()[pri:1, instance:com.orangehrm.qa.testcases.AdminPageTest@58c1670b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifyAdminPageAction()[pri:2, instance:com.orangehrm.qa.testcases.AdminPageTest@58c1670b]" name="verifyAdminPageAction" duration-ms="4777" started-at="2021-09-22T02:16:51 IST" finished-at="2021-09-22T02:16:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminPageAction -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.orangehrm.qa.testcases.AdminPageTest@58c1670b]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2021-09-22T02:16:56 IST" finished-at="2021-09-22T02:16:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminPageAction status=SUCCESS method=AdminPageTest.verifyAdminPageAction()[pri:2, instance:com.orangehrm.qa.testcases.AdminPageTest@58c1670b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifyAdminPageAddUser()[pri:3, instance:com.orangehrm.qa.testcases.AdminPageTest@58c1670b]" name="verifyAdminPageAddUser" duration-ms="3544" started-at="2021-09-22T02:16:56 IST" finished-at="2021-09-22T02:16:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminPageAddUser -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.orangehrm.qa.testcases.AdminPageTest@58c1670b]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2021-09-22T02:16:59 IST" finished-at="2021-09-22T02:16:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminPageAddUser status=SUCCESS method=AdminPageTest.verifyAdminPageAddUser()[pri:3, instance:com.orangehrm.qa.testcases.AdminPageTest@58c1670b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifyAdminDeleteUser()[pri:4, instance:com.orangehrm.qa.testcases.AdminPageTest@58c1670b]" name="verifyAdminDeleteUser" duration-ms="2770" started-at="2021-09-22T02:16:59 IST" finished-at="2021-09-22T02:17:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminDeleteUser -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.orangehrm.qa.testcases.AdminPageTest@58c1670b]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2021-09-22T02:17:02 IST" finished-at="2021-09-22T02:17:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminDeleteUser status=SUCCESS method=AdminPageTest.verifyAdminDeleteUser()[pri:4, instance:com.orangehrm.qa.testcases.AdminPageTest@58c1670b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.qa.testcases.AdminPageTest@58c1670b]" name="tearDown" is-config="true" duration-ms="83" started-at="2021-09-22T02:17:02 IST" finished-at="2021-09-22T02:17:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrm.qa.testcases.AdminPageTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- OrangeHRM -->
+</testng-results>
